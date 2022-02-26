@@ -2,9 +2,9 @@
 
 namespace SANMV\Saas;
 
+use SANMV\Saas\Commands\SaasCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SANMV\Saas\Commands\SaasCommand;
 
 class SaasServiceProvider extends PackageServiceProvider
 {
