@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace SANMV\Saas\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class SaasCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-saas';
 
     public $description = 'My command';
 
